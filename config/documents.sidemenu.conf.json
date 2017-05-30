@@ -1,0 +1,96 @@
+{
+    "roles": {
+        "ADMIN": {
+            "sidemenu": {
+                "7": {
+                    "label": {
+                        "en_US": "Manage Documents",
+                        "es_US": "Manage Documents"
+                    },
+                    "sref": "documents-view",
+                    "e2eId": "documents-view",
+                    "iconClass": "fa-file",
+                    "id": "cms.documents"
+                }
+            }
+        },
+        "RETAILER_PRIMARY_CHAIN_HEAD": {
+            "sidemenu": {
+                "7": {
+                    "label": {
+                        "en_US": "Documents",
+                        "es_US": "Documents"
+                    },
+                    "sref": "documents-view",
+                    "e2eId": "documents-view",
+                    "iconClass": "fa-file"
+                }
+            }
+        },
+        "RETAILER_PRIMARY_INDEPENDENT": {
+            "sidemenu": {
+                "6": {
+                    "label": {
+                        "en_US": "Documents",
+                        "es_US": "Documents"
+                    },
+                    "sref": "documents-view",
+                    "e2eId": "documents-view",
+                    "iconClass": "fa-file"
+                }
+            }
+        },
+        "RETAILER_PRIMARY_CHAIN_SUBORDINATE": {
+            "sidemenu": {
+                "6": {
+                    "label": {
+                        "en_US": "Documents",
+                        "es_US": "Documents"
+                    },
+                    "sref": "documents-view",
+                    "e2eId": "documents-view",
+                    "iconClass": "fa-file"
+                }
+            }
+        },
+        "RETAILER_SECONDARY_CHAIN_HEAD": {
+            "sidemenu": {
+                "8": {
+                    "label": {
+                        "en_US": "Documents",
+                        "es_US": "Documents"
+                    },
+                    "sref": "documents-view",
+                    "e2eId": "documents-view",
+                    "iconClass": "fa-file"
+                }
+            }
+        },
+        "RETAILER_SECONDARY_INDEPENDENT": {
+            "sidemenu": {
+                "7": {
+                    "label": {
+                        "en_US": "Documents",
+                        "es_US": "Documents"
+                    },
+                    "sref": "documents-view",
+                    "e2eId": "documents-view",
+                    "iconClass": "fa-file"
+                }
+            }
+        },
+        "RETAILER_SECONDARY_CHAIN_SUBORDINATE": {
+            "sidemenu": {
+                "7": {
+                    "label": {
+                        "en_US": "Documents",
+                        "es_US": "Documents"
+                    },
+                    "sref": "documents-view",
+                    "e2eId": "documents-view",
+                    "iconClass": "fa-file"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+<md-dialog>
+    <md-dialog-content class="layout-column layout-padding" ng-form="ctrl.uploadForm">
+        <h3 class="dialog-heading" translate>Upload File</h3>
+        <div class="layout-column layout-align-space-between document-upload-pane">
+            <div class="input-style">
+                <label for="name" translate>Name*</label>
+                <input ng-model="ctrl.document.formData.name" name="name" type="text" required lsp-form-field>
+                <div class="errors" ng-messages="ctrl.uploadForm.name.$error"  ng-show="ctrl.uploadForm.showValidation(ctrl.uploadForm.name)">
+                    <div ng-message="required" translate>Please enter file name.</div>
+                </div>
+            </div>
+            <div class="input-style">
+                <label for="fileName" translate>File*</label>
+                <div class="layout-row layout-align-space-between-center">
+                    <div class="flex">
+                        <input lsp-form-field class="file-name" type="text" readonly ng-model="ctrl.document.fileData.fileName" name="fileName" required/>
+                    </div>
+                    <span class="app-button app-button--raised documents-browse-btn document-upload">
+                        <label for="file" translate>Browse</label>
+                        <input aria-label="Browse" type="file" name="file" id="file" class="upload upload-file"/>
+                    </span>
+                </div>
+                <div class="errors" ng-messages="ctrl.uploadForm.fileName.$error" ng-show="ctrl.uploadForm.showValidation(ctrl.uploadForm.fileName)">
+                    <div ng-message="required" translate>Please select a file to upload.</div>
+                </div>
+                <div class="errors" ng-show="ctrl.errors.fileSizeExceeded">
+                    <div translate>File is too large.</div>
+                </div>
+            </div>
+            <div class="input-style">
+                <label for="thumbnailImage" translate>Thumbnail Image</label>
+                <div class="layout-row layout-align-space-between-center">
+                    <div class="flex">
+                        <input lsp-form-field class="file-name" type="text" readonly ng-model="ctrl.document.thumbnailData.fileName" name="thumbnailImage"/>
+                    </div>
+                    <span class="app-button app-button--raised documents-browse-btn document-upload">
+                        <label for="thumbnail" translate>Browse</label>
+                        <input aria-label="Browse" type="file" name="thumbnail" id="thumbnail" class="upload upload-thumbnail"/>
+                    </span>
+                </div>
+            </div>
+            <div class="input-style">
+                <label for="categoryId" translate>Category*</label>
+                <div class="layout-row layout-align-space-between-center">
+                    <div class="flex">
+                        <md-select class="input-style-select"
+                                   md-container-class="input-style-select"
+                                   ng-model="ctrl.document.formData.categoryId"
+                                   name="categoryId"
+                                   md-no-asterisk="true" required>
+                            <md-option ng-repeat="category in ctrl.categories track by $index" value="{{category.documentTypeId}}">
+                                <span>{{category.documentTypeName}}</span>
+                            </md-option>
+                        </md-select>
+                    </div>
+                </div>
+                <div class="errors" ng-messages="ctrl.uploadForm.categoryId.$error" ng-show="ctrl.uploadForm.$submitted">
+                    <div ng-message="required" translate>Please select Category.</div>
+                </div>
+            </div>
+            <div class="input-style">
+                <label translate>Keywords</label>
+                <md-chips
+                        class="chips"
+                        md-add-on-blur="true"
+                        ng-model="ctrl.document.formData.tags"
+                        placeholder="Enter a tag">
+                </md-chips>
+            </div>
+        </div>
+    </md-dialog-content>
+    <md-dialog-actions>
+        <button class="app-button app-button--raised" ng-click="ctrl.close()" translate>Cancel</button>
+        <button class="app-button app-button--raised app-button--primary" ng-click="ctrl.upload(ctrl.uploadForm)" translate>Upload</button>
+    </md-dialog-actions>
+</md-dialog>

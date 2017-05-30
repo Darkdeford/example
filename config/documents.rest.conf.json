@@ -1,0 +1,38 @@
+{
+	"api/rest/admin/document": {
+		"path": ["documents.create"],
+		"roles": ["mock", "ADMIN", "LOTTERY_STAFF"]
+  	},
+	  "api/rest/admin/document/{id}": {
+	    "path": ["documents.update","documents.remove"],
+	    "roles": ["mock", "ADMIN", "LOTTERY_STAFF"]
+  	},
+	  "api/rest/admin/document-type": {
+	    "path": ["documents.category.create"],
+	    "roles": ["mock", "ADMIN", "LOTTERY_STAFF"]
+  	},
+  	"api/rest/admin/document-type/{id}": {
+	    "path": ["documents.category.remove", "documents.category.update"],
+	    "roles": ["mock", "ADMIN", "LOTTERY_STAFF"]
+	},
+	"api/rest/admin/document/tags/{tag}": {
+		"path": ["documents.tag.remove"],
+		"roles": ["mock", "ADMIN", "LOTTERY_STAFF"]
+	},
+  	"api/rest/user/self/document-type": {
+	    "path": ["documents.categories"],
+	    "roles": ["mock", "ADMIN", "RETAILER_PRIMARY", "RETAILER_SECONDARY"]
+  	},
+	"api/rest/user/self/document/tags": {
+		"path": ["documents.tagsList"],
+		"roles": ["mock", "ADMIN", "RETAILER_PRIMARY", "RETAILER_SECONDARY"]
+	},
+	"api/rest/user/self/document": {
+		"path": ["documents.documentsList"],
+		"roles": ["mock", "ADMIN", "RETAILER_PRIMARY", "RETAILER_SECONDARY"]
+	},
+	"api/rest/user/self/document/content": {
+		"path": ["documents.download"],
+		"roles": ["mock", "ADMIN", "RETAILER_PRIMARY", "RETAILER_SECONDARY"]
+	}
+}

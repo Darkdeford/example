@@ -1,0 +1,18 @@
+<md-dialog>
+    <md-dialog-content class="layout-column layout-padding" ng-form="newCategoryForm">
+        <h3 class="dialog-heading" translate>Create Category</h3>
+        <div class="input-style">
+            <label for="documentTypeName" translate>New Category Name</label>
+            <input type="text" name="documentTypeName" data-ng-model="ctrl.documentTypeName" required>
+            <div class="errors" ng-messages="newCategoryForm.documentTypeName.$error" ng-show="newCategoryForm.$submitted">
+                <div ng-message="required" translate>
+                    Category name required
+                </div>
+            </div>
+        </div>
+    </md-dialog-content>
+    <md-dialog-actions>
+        <button class="app-button app-button--raised" ng-click="ctrl.close()" translate>Cancel</button>
+        <button class="app-button app-button--raised app-button--primary" ng-click="ctrl.addCategory(newCategoryForm, ctrl.documentTypeName)" translate>Create</button>
+    </md-dialog-actions>
+</md-dialog>

@@ -1,0 +1,1432 @@
+{
+    "documents.create": {
+        "todo": "add data"
+    },
+    "documents.update": {
+        "todo": "add data"
+    },
+    "documents.remove": {
+        "todo": "add data"
+    },
+    "documents.category.create": {
+        "todo": "add data"
+    },
+    "documents.category.remove": {
+        "todo": "add data"
+    },
+    "documents.category.update": {
+        "todo": "add data"
+    },
+    "documents.categories": [{
+        "documentTypeId": 52,
+        "documentTypeName": "Draw Games",
+        "jurisdictionId": null,
+        "pageType": null
+    }, {
+        "documentTypeId": 53,
+        "documentTypeName": "Social Media",
+        "jurisdictionId": null,
+        "pageType": null
+    }, {
+        "documentTypeId": 54,
+        "documentTypeName": "Planograms",
+        "jurisdictionId": null,
+        "pageType": null
+    }, {
+        "documentTypeId": 55,
+        "documentTypeName": "Instant Games",
+        "jurisdictionId": null,
+        "pageType": null
+    }, {
+        "documentTypeId": 57,
+        "documentTypeName": "Incentives",
+        "jurisdictionId": null,
+        "pageType": null
+    }, {
+        "documentTypeId": 58,
+        "documentTypeName": "Point of Sale",
+        "jurisdictionId": null,
+        "pageType": null
+    }, {
+        "documentTypeId": 60,
+        "documentTypeName": "Retailer Newsletters, English",
+        "jurisdictionId": null,
+        "pageType": null
+    }, {
+        "documentTypeId": 61,
+        "documentTypeName": "Retailer Newsletters, Spanish",
+        "jurisdictionId": null,
+        "pageType": null
+    }, {
+        "documentTypeId": 50,
+        "documentTypeName": "Operating Policies & Procedures",
+        "jurisdictionId": null,
+        "pageType": null
+    }, {
+        "documentTypeId": 51,
+        "documentTypeName": "Licensing Forms",
+        "jurisdictionId": null,
+        "pageType": null
+    }, {
+        "documentTypeId": 56,
+        "documentTypeName": "Equipment",
+        "jurisdictionId": null,
+        "pageType": null
+    }, {
+        "documentTypeId": 59,
+        "documentTypeName": "Instant Games",
+        "jurisdictionId": null,
+        "pageType": null
+    }],
+    "documents.documentsList": {
+        "sortColumn": "guiName",
+        "direction": "asc",
+        "pageSize": 50,
+        "pageNo": 1,
+        "data": [{
+            "id": 11,
+            "name": "RetailerWizard_Video).mp4",
+            "guiName": "RetailerWizard Video",
+            "source": null,
+            "type": {
+                "documentTypeId": 54,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1460610000000,
+            "modifyDate": 1469077200000,
+            "jurisdiction": {
+                "jurisdictionId": 100
+            }
+        }, {
+            "id": 12,
+            "name": "how_to_use_facebook_for_business.pptx",
+            "guiName": "How to use facebook for Business",
+            "source": null,
+            "type": {
+                "documentTypeId": 54,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1460610000000,
+            "modifyDate": 1469077200000,
+            "jurisdiction": {
+                "jurisdictionId": 100
+            }
+        }, {
+            "id": 14,
+            "name": "Lottery_logo.png",
+            "guiName": "Lottery logo",
+            "source": null,
+            "type": {
+                "documentTypeId": 54,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1460610000000,
+            "modifyDate": 1469077200000,
+            "jurisdiction": {
+                "jurisdictionId": 100
+            }
+        }, {
+            "id": 15,
+            "name": "Lottery_logo.jpg",
+            "guiName": "Lottery logo",
+            "source": null,
+            "type": {
+                "documentTypeId": 54,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1460610000000,
+            "modifyDate": 1469077200000,
+            "jurisdiction": {
+                "jurisdictionId": 100
+            }
+        }, {
+            "id": 53,
+            "name": "Wheel of Fortune.pdf",
+            "guiName": "24-bin ACME Plan-o-gram, January 2016",
+            "source": null,
+            "type": {
+                "documentTypeId": 54,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1460610000000,
+            "modifyDate": 1469077200000,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 71,
+            "name": "NJ_Feb2016_24Game_ITVM_POG.pdf",
+            "guiName": "24-bin Self-Service Plan-o-gram, February 2016",
+            "source": null,
+            "type": {
+                "documentTypeId": 54,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 64,
+            "name": "NJ_Jan2016_ITVM_POG_24Game.pdf",
+            "guiName": "24-bin Self-Service Plan-o-gram, January 2016",
+            "source": null,
+            "type": {
+                "documentTypeId": 54,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 63,
+            "name": "NJ_Feb2016_Acme_24Game_POG.pdf",
+            "guiName": "26-bin ACME Plan-o-gram, February 2016",
+            "source": null,
+            "type": {
+                "documentTypeId": 54,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": 1463461200000,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 59,
+            "name": "Ask for the Sale Tracking Form.pdf",
+            "guiName": "Ask for the Sale Tracking Form",
+            "source": null,
+            "type": {
+                "documentTypeId": 57,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 69,
+            "name": "NJ_CloseEnough_Information_Sheet.pdf",
+            "guiName": "Close Enough Overview",
+            "source": null,
+            "type": {
+                "documentTypeId": 52,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 54,
+            "name": "FacebookForBusiness.pdf",
+            "guiName": "Facebook for Business",
+            "source": null,
+            "type": {
+                "documentTypeId": 53,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1460610000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 56,
+            "name": "FastPlay.pdf",
+            "guiName": "Fast Play Overview",
+            "source": null,
+            "type": {
+                "documentTypeId": 52,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462165200000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 68,
+            "name": "NJ_FastPlay_ Laminated Trainning Sheet.pdf",
+            "guiName": "Fast Play Overview",
+            "source": null,
+            "type": {
+                "documentTypeId": 52,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 67,
+            "name": "NJ_FastPlay_JerseyJackpot_LSR_InfoSheet.pdf",
+            "guiName": "Fast Play, Jersey Jackpot (English)",
+            "source": null,
+            "type": {
+                "documentTypeId": 52,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 66,
+            "name": "NJ_FastPlay_JerseyJackpot_LSR_InfoSheet_Spanish_FINAL.pdf",
+            "guiName": "Fast Play, Jersey Jackpot (Spanish)",
+            "source": null,
+            "type": {
+                "documentTypeId": 52,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 55,
+            "name": "IncreaseTicketSales.pdf",
+            "guiName": "How to Increase Instant Ticket Sales",
+            "source": null,
+            "type": {
+                "documentTypeId": 55,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1460610000000,
+            "modifyDate": 1462165200000,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 70,
+            "name": "NJ_Jan2016_POS_PlacementGuide_FINAL.pdf",
+            "guiName": "POS Placement Guide, February 2016",
+            "source": null,
+            "type": {
+                "documentTypeId": 58,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 74,
+            "name": "NJ_December_Retailer Focus.pdf",
+            "guiName": "Retailer Focus Dec 2015",
+            "source": null,
+            "type": {
+                "documentTypeId": 60,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 77,
+            "name": "NJ_Feb_2016_Retailer_Focus.pdf",
+            "guiName": "Retailer Focus Feb 2016",
+            "source": null,
+            "type": {
+                "documentTypeId": 60,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 76,
+            "name": "NJ_Jan_2016_Retailer_Focus.pdf",
+            "guiName": "Retailer Focus Jan 2016",
+            "source": null,
+            "type": {
+                "documentTypeId": 60,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 78,
+            "name": "NJFebSpanish_pdf.pdf",
+            "guiName": "Retailer Focus Spanish, Feb 2016",
+            "source": null,
+            "type": {
+                "documentTypeId": 52,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 79,
+            "name": "NJ_Jan_2016_Retailer Focus_Spanish.pdf",
+            "guiName": "Retailer Focus Spanish, Jan 2016",
+            "source": null,
+            "type": {
+                "documentTypeId": 61,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 80,
+            "name": "NJL_InstantUnclaimedPrizes(3).PDF",
+            "guiName": "Unclaimed Prizes as of 02/05/16",
+            "source": null,
+            "type": {
+                "documentTypeId": 55,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 57,
+            "name": "Altura Quick Reference Guide.pdf",
+            "guiName": "Altura Quick Reference Guide",
+            "source": null,
+            "type": {
+                "documentTypeId": 56,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": 1462770000000,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 52,
+            "name": "Bank Form.pdf",
+            "guiName": "Bank Authorization for EFT",
+            "source": null,
+            "type": {
+                "documentTypeId": 51,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1460610000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 51,
+            "name": "CashedTicketsProcedure.pdf",
+            "guiName": "Cashed Tickets Procedures",
+            "source": null,
+            "type": {
+                "documentTypeId": 50,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1460610000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 72,
+            "name": "CertificateofAuthority.pdf",
+            "guiName": "Certificate of Authority Procedure",
+            "source": null,
+            "type": {
+                "documentTypeId": 51,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 58,
+            "name": "CHOW.pdf",
+            "guiName": "Change of Ownership",
+            "source": null,
+            "type": {
+                "documentTypeId": 51,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 73,
+            "name": "Feb 2016 Game End.pdf",
+            "guiName": "Game End Notice Feb 2016",
+            "source": null,
+            "type": {
+                "documentTypeId": 59,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 60,
+            "name": "Gemini Quick Reference.pdf",
+            "guiName": "Gemini Quick Reference Guide",
+            "source": null,
+            "type": {
+                "documentTypeId": 56,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 61,
+            "name": "GeneralOperatingProcedures.pdf",
+            "guiName": "General Operating Procedures",
+            "source": null,
+            "type": {
+                "documentTypeId": 50,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 62,
+            "name": "Instant TicketCredit.pdf",
+            "guiName": "Instant Ticket credit Procedures",
+            "source": null,
+            "type": {
+                "documentTypeId": 50,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1462770000000,
+            "modifyDate": null,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }, {
+            "id": 50,
+            "name": "StolenTicketProcedures.pdf",
+            "guiName": "Stolen Ticket Reporting Procedures",
+            "source": null,
+            "type": {
+                "documentTypeId": 50,
+                "documentTypeName": null,
+                "jurisdictionId": null
+            },
+            "mimeType": "application/pdf",
+            "creationDate": 1460610000000,
+            "modifyDate": 1460610000000,
+            "jurisdiction": {
+                "jurisdictionId": 100,
+                "jurisdictionName": "refdemo",
+                "lotteryStyleFileName": "ref",
+                "lotteryName": "Reference Lottery",
+                "lotteryPhone": "1.800.746.8546",
+                "lotteryStateName": "refdemo",
+                "lotteryZip": "30343-0487",
+                "lotteryAddress": "Reference Lottery Commission HQ",
+                "lotteryCityName": "Warsaw",
+                "lotteryImgName": "ref",
+                "lotteryTemplateName": "",
+                "passwordHintTxt": [
+                    "What is your pet's name?",
+                    "What is the name of your elementary school?",
+                    "What is the last name of your favorite teacher?",
+                    "What is your father's middle name?",
+                    "What is the name of the street you lived on when you were 10?"
+                ],
+                "sessionTimeout": 0,
+                "terminatedRetentionDaysNumber": 0,
+                "cdc0Dt": null,
+                "jurisdictionTypeName": null,
+                "userQuestionVisibleInd": false,
+                "lotteryLearningLink": "http://www.gtechlll.com/login/demo/default.aspx?CurLang=1",
+                "serverTimezoneName": "GMT-05:00",
+                "serverTimezoneDiff": "-0500",
+                "retailers": [],
+                "srcFiles": [],
+                "audits": []
+            }
+        }],
+        "recordsTotal": 29
+    },
+    "documents.download": {
+        "todo": "add data"
+    }
+}

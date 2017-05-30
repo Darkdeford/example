@@ -1,0 +1,33 @@
+<md-dialog>
+    <md-dialog-content class="layout-column layout-padding">
+        <h3 class="dialog-heading" translate>Edit File</h3>
+        <div class="document-upload-pane input-style layout-column layout-align-space-between">
+            <div class="input-style">
+                <label for="name" translate>Name*</label>
+                <input ng-model="ctrl.documentTmp.title" md-no-float name="name" type="text" required lsp-form-field>
+            </div>
+            <div class="input-style">
+                <label for="name" translate>Category*</label>
+                <md-select ng-model="ctrl.documentTmp.categoryId">
+                    <md-option ng-repeat="category in ctrl.categories"
+                               ng-value="category.documentTypeId">
+                        {{category.documentTypeName}}
+                    </md-option>
+                </md-select>
+            </div>
+            <div class="input-style">
+                <label>Tags</label>
+                <md-chips
+                        class="chips"
+                        ng-model="ctrl.documentTmp.tags"
+                        md-add-on-blur="true"
+                        placeholder="Enter a tag">
+                </md-chips>
+            </div>
+        </div>
+    </md-dialog-content>
+    <md-dialog-actions>
+        <button class="app-button app-button--raised" ng-click="ctrl.close()" translate>Cancel</button>
+        <button class="app-button app-button--raised app-button--primary" ng-click="ctrl.save(ctrl.document, ctrl.documentTmp)" translate>Save</button>
+    </md-dialog-actions>
+</md-dialog>

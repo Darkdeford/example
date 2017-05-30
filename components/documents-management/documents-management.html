@@ -1,0 +1,76 @@
+<div data-ng-form="$ctrl.uploadForm" class="documents-upload-form layout-wrap">
+    <div class="file-uploader-wrapper">
+        <div class="file-uploader">
+            <div ng-if="$ctrl.canUploadDocument">
+                <div class="layout-column">
+                    <button class="app-button app-button--raised app-button--primary upload-button btn-block" ng-click="$ctrl.openUploadFilesDialog()">
+                        <translate>Upload Files</translate>
+                    </button>
+                </div>
+                <div class="hr-line-dashed"></div>
+            </div>
+            <div class="section-filter-by-type">
+                <h5 translate>View</h5>
+                <a href=""
+                   class="file-control"
+                   ng-click="$ctrl.setViewActive({view: view.id})"
+                   ng-class="{'active': $ctrl.isViewActive({view: view.id})}"
+                   ng-repeat="view in $ctrl.views track by $index">
+                    {{view.name}}
+                </a>
+                <div class="hr-line-dashed"></div>
+            </div>
+            <div ng-if="!$ctrl.isGridViewActive()" class="sort-by">
+                <h5 translate>Sort By</h5>
+                <md-select class="input-style-select" ng-model="$ctrl.sortBy" md-no-asterisk="true">
+                    <md-option ng-repeat="option in $ctrl.sortByOptions track by $index"
+                               ng-click="$ctrl.onSortDocuments(option.column, option.ascending)"
+                               value="{{option.label}}">
+                        {{option.label}}
+                    </md-option>
+                </md-select>
+                <div class="hr-line-dashed"></div>
+            </div>
+            <div class="section-filter-by-type">
+                <h5 translate>Show</h5>
+                <a href="" class="file-control" ng-click="$ctrl.onFileTypeClick(folder)" ng-class="{'active': folder.active}" ng-repeat="folder in $ctrl.folders track by $index">
+                    {{folder.name}}
+                </a>
+                <div class="hr-line-dashed"></div>
+            </div>
+            <div class="categories">
+                <h5>Categories</h5>
+                <ul class="folder-list">
+                    <li ng-repeat="category in $ctrl.model.documents.categories track by $index">
+                        <div>
+                            <div class="category flex" ng-click="$ctrl.onCategoryClick(category)" ng-class="{'active': $ctrl.isCategoryActive(category)}">
+                                <span class="category-name">{{category.documentTypeName}}</span>
+                                <i ng-if="$ctrl.canEdit" ng-click="$ctrl.removeCategory($event, category)" class="fa fa-trash pull-right"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <span ng-if="$ctrl.canEdit" href="" class="add-category" ng-click="$ctrl.openCreateCategoryDialog()">
+                <i class="fa fa-plus"></i>
+                <span translate>Add Category</span>
+                </span>
+                <div class="hr-line-dashed"></div>
+            </div>
+
+            <!-- TAGS -->
+            <div class="tags" cg-busy="$ctrl.tagsBusy">
+                <h5 translate>Keywords</h5>
+                <div class="tags-list">
+                    <span class="tag"
+                          ng-repeat="tag in $ctrl.model.documents.tags track by $index"
+                          ng-click="$ctrl.onTagClick($event, tag)"
+                          ng-if="tag.show"
+                          ng-class="{'active': $ctrl.isTagActive(tag.name)}">
+                        {{tag.name}}
+                        <i ng-if="tag.isRemovable" class="fa fa-times"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,167 @@
+<section class="retailer documents">
+    <lsp-page-header class="layout-column">
+        <lsp-header>
+            {{::$ctrl.pageHeader}}
+        </lsp-header>
+    </lsp-page-header>
+    <div class="content-view">
+        <div class="layout-row layout-wrap">
+            <div class="flex-25 flex-lg-25 flex-md-25 flex-sm-100 flex-xs-100 white-container search-section layout-wrap">
+                <documents-management class="layout-fill"
+                                      data-model="$ctrl.model"
+                                      data-on-save-category="$ctrl.onCreateCategory(category)"
+                                      data-file-size-limit="::$ctrl.lspConfig.fileSizeLimit"
+                                      data-on-remove-category="$ctrl.onRemoveCategory(category)"
+                                      data-on-remove-tag="$ctrl.onRemoveTag(tag)"
+                                      data-on-upload="$ctrl.onUploadDocument(document)"
+                                      data-can-upload-document="$ctrl.uploadDocument.hasAccess"
+                                      data-header="$ctrl.uploadFormHeader"
+                                      data-can-edit="$ctrl.canEditDocuments"
+                                      data-is-grid-view-active="$ctrl.isGridViewActive()"
+                                      data-sort-documents="$ctrl.sortDocuments(column, direction)"
+                                      data-filter-documents="$ctrl.filter()"
+                                      data-filters="$ctrl.filters"
+                                      data-show-complex-dialog="$ctrl.showComplexDialog(params)"
+                                      data-views="$ctrl.views"
+                                      data-set-view-active="$ctrl.setViewActive(view)"
+                                      data-is-view-active="$ctrl.isViewActive(view)">
+                </documents-management>
+            </div>
+            <div class="flex-75 flex-lg-75 flex-md-75 flex-sm-100 flex-xs-100 layout-wrap list-section">
+                <div class="layout-column">
+                    <div class="layout-row layout-align-space-between-center">
+                        <div class="flex-90">
+                            <div class="flex search input-style">
+                                <span class="fa fa-search fa-lg lsp-link"></span>
+                                <input placeholder="Search for File" type="text" class="md-input search-input"
+                                       ng-model="$ctrl.filters.documentName"
+                                       ng-model-options="{debounce:1000}"
+                                       ng-change="$ctrl.filter()">
+                            </div>
+                        </div>
+                        <div class="flex-10 layout-row layout-align-end">
+                            <button class="app-button app-button--raised app-button--warn clear-filter-button"
+                                    ng-click="$ctrl.clearFiltersAndReload()">
+                                <i class="clear-filter-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <lsp-grid class="layout-fill">
+                    <grid-table>
+                        <!-- GRID VIEW -->
+                        <lsp-table class="box-view-table" ng-if="$ctrl.isGridViewActive()"
+                                   data-loaded="$ctrl.model.documents.grid.loaded"
+                                   data-has-data="$ctrl.model.documents.grid.data.length"
+                                   data-default-sort-column="guiName"
+                                   data-id-prefix="lsp-documents--documents-grid">
+                            <div class="document-file-box"
+                                 ng-class="{'animated pulse': document.mouseOver}"
+                                 ng-mouseover="document.mouseOver = true;"
+                                 ng-mouseleave="document.mouseOver = false;"
+                                 ng-repeat="document in $ctrl.model.documents.grid.data track by document.id">
+                                <div class="file">
+                                    <span class="corner"></span>
+                                    <div class="image-container">
+                                      <lsp-img ng-if="document.thumbnail"
+                                               lsp-img-data="document.thumbnail"
+                                               css-class="lsp-image"
+                                               alt-img="document.title">
+                                      </lsp-img>
+                                      <div ng-if="!document.thumbnail" class="icon">
+                                        <i class="fa {{$ctrl.getGridIconClass(document)}}"></i>
+                                      </div>
+                                    </div>
+                                    <div class="file-name">
+                                        <download-link class="bold blue-text"
+                                                       data-title="{{document.title}}"
+                                                       data-download-function="$ctrl.onDownloadDocument(document)">
+                                        </download-link>
+                                        <div class="file-label file-type">
+                                            {{document.type}}
+                                        </div>
+                                        <div class="file-label pull-left">
+                                            {{ document.dateCreated | lspDate}}
+                                        </div>
+                                        <div class="file-actions pull-right">
+                                            <i ng-if="$ctrl.canEditDocuments"
+                                               class="fa fa-pencil fa-lg lsp-link layout-padding"
+                                               ng-click="$ctrl.openEditDocumentDialog(document, $ctrl.model.documents.categories)">
+                                            </i>
+                                            <i ng-if="$ctrl.canEditDocuments"
+                                               class="fa fa-trash fa-lg lsp-link layout-padding"
+                                               ng-click="$ctrl.onRemoveDocument(document)">
+                                            </i>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </lsp-table>
+                        <!-- TABLE VIEW -->
+                        <lsp-table ng-if="$ctrl.isTableViewActive()"
+                                   data-loaded="$ctrl.model.documents.grid.loaded"
+                                   data-has-data="$ctrl.model.documents.grid.data.length"
+                                   data-headers="$ctrl.headers"
+                                   data-on-sort-handler="$ctrl.sortDocuments(column, direction)"
+                                   data-default-sort-column="guiName"
+                                   data-id-prefix="lsp-documents--documents-grid">
+                            <div class="md-table-row md-responsive-row"
+                                 role="row"
+                                 ng-repeat="document in $ctrl.model.documents.grid.data track by document.id">
+                                <div class="md-table-cell" overflow-hidden role="gridcell">
+                                    <!--JM - overflow hidden ??-->
+                                    <div class="responsive-label-inline hide-gt-sm bold blue-text">{{ $ctrl.headers[0].text }}</div>
+                                    <div class="responsive-data break-word">
+                                        <download-link class="bold blue-text"
+                                                       data-title="{{document.title}}"
+                                                       data-download-function="$ctrl.onDownloadDocument(document)">
+                                        </download-link>
+                                    </div>
+                                </div>
+                                <div class="md-table-cell" role="gridcell">
+                                    <div class="responsive-label-inline hide-gt-sm">{{ $ctrl.headers[1].text }}</div>
+                                    <div class="responsive-data">
+                                        <span>{{ document.categoryName }}</span>
+                                    </div>
+                                </div>
+                                <div class="md-table-cell" role="gridcell">
+                                    <div class="responsive-label-inline hide-gt-sm">{{ $ctrl.headers[2].text }}</div>
+                                    <div class="responsive-data">
+                                        {{ document.dateCreated | lspDate}}
+                                    </div>
+                                </div>
+                                <div class="md-table-cell" role="gridcell">
+                                    <div class="responsive-label-inline hide-gt-sm">{{ $ctrl.headers[3].text }}</div>
+                                    <div class="responsive-data">
+                                        {{ document.fileName }}
+                                    </div>
+                                </div>
+                                <div class="md-table-cell" role="gridcell">
+                                    <div class="responsive-label-inline hide-gt-sm">{{ $ctrl.headers[4].text }}</div>
+                                    <div class="responsive-data">
+                                        {{ document.type }}
+                                    </div>
+                                </div>
+                                <div class="md-table-cell responsive-last-cell" role="gridcell">
+                                    <div class="responsive-label-inline hide-gt-sm">{{ $ctrl.headers[5].text }}</div>
+                                    <div ng-if="$ctrl.canEditDocuments" class="responsive-data">
+                                        <div class="layout-row">
+                                            <i class="fa fa-pencil fa-lg lsp-link layout-padding"
+                                               ng-click="$ctrl.openEditDocumentDialog(document, $ctrl.model.documents.categories)">
+                                            </i>
+                                            <i class="fa fa-trash fa-lg lsp-link layout-padding"
+                                               ng-click="$ctrl.onRemoveDocument(document)">
+                                            </i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </lsp-table>
+                    </grid-table>
+                </lsp-grid>
+            </div>
+        </div>
+    </div>
+</section>
